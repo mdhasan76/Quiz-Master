@@ -5,6 +5,7 @@ import Home from './component/Home/Home';
 import Blog from './component/Blog/Blog';
 import Topics from './Topics/Topics';
 import Statistics from './component/Statistics/Statistics';
+import NotFound from './component/NotFound/NotFound';
 
 function App() {
   const router = createBrowserRouter([
@@ -31,6 +32,10 @@ function App() {
           element: <Statistics></Statistics>
         }
       ]
+    },
+    {
+      path: '*',
+      element: <NotFound></NotFound>
     }
   ])
   return (
