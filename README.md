@@ -16,5 +16,5 @@ For create this site i chose tailwind cause tailwind is most customizable. for r
 Get all quiz Data from this link 
    1. https://openapi.programming-hero.com/api/quiz 
 
-   Get Single quize
+Get Single quize
    2. https://openapi.programming-hero.com/api/quiz/1

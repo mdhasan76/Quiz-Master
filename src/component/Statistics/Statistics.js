@@ -4,7 +4,7 @@ import { BarChart, Tooltip, XAxis, YAxis, Bar, Legend, ResponsiveContainer } fro
 
 const Statistics = () => {
     const quizData = useLoaderData();
-    console.log(quizData)
+    // console.log(quizData)
     const quiz = quizData.data;
     return (
         <div className=' max-w-3xl mx-auto mt-20'>

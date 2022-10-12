@@ -21,7 +21,7 @@ const Blog = () => {
                 </div>
                 <div className='mb-3'>
                     <h1 className='text-3xl font-semibold py-3'>3.Why we use useRef Hook?</h1>
-                    <p className='opacity-80 text-justify text-lg leading-8'>The useRef Hook allows you to persist values between renders.It can be used to store a mutable value that does not cause a re-render when updated.It can be used to access a DOM element directly.
+                    <p className='opacity-80 text-justify text-lg leading-8'>The useRef is a hook that allows to directly create a reference to the DOM element in the functional component. The useRef Hook allows us to persist values between renders.It can be used to store a mutable value that does not cause a re-render when updated.It can be used to access a DOM element directly.
                     </p>
                 </div>
             </div>
