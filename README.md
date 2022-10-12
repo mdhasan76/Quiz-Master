@@ -1,6 +1,6 @@
 This  is Assainment 9. 
 
-site link:- 
+site link:- https://quiz-master7.netlify.app/
 gitLink:- https://github.com/programming-hero-web-course2/b6-quiz-crackerz-mdhasan76
 
 1. Which is use for create this site
