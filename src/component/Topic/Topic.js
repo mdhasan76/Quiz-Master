@@ -15,10 +15,10 @@ const Topic = ({ quiz }) => {
 
                     <h5 className="mb-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{name}</h5>
 
-                    <button className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white duration-500 bg-blue-500 rounded-lg hover:bg-blue-800" onClick={() => startQuiz(quiz)}>
-                        <Link to={`/topic/${id}`}>Start Quiz</Link>
+                    <Link to={`/topic/${id}`}> <button className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white duration-500 bg-blue-500 rounded-lg hover:bg-blue-800" onClick={() => startQuiz(quiz)}>
+                        Start Quiz
                         <svg aria-hidden="true" className="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path></svg>
-                    </button>
+                    </button></Link>
                     <h4 className='py-3 text-lg font-medium'>Total Question {total}</h4>
                 </div>
             </div>
